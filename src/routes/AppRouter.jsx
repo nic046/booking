@@ -1,6 +1,6 @@
 import { Outlet, Route, Routes } from "react-router";
 import { Home, Details, Reservations, Login, Register } from "../app/index";
-import MainLayout from "../layouts/mainLayout";
+import MainLayout from "../layouts/MainLayout";
 import AuthLayout from "../layouts/AuthLayout";
 import Protected from "./Protected";
 import Public from "./Public";
